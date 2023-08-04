@@ -2,13 +2,13 @@ import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
+  base: "/blog/",
   title: "大师兄聊编程",
   description: "大师兄知识分享，和你一起聊编程",
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }]
   ],
   theme: recoTheme({
-    base: '/blog/',
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     heading: "/logo.png",
