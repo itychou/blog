@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://&lt;USERNAME&gt;.github.io/&lt;REPO&gt;
-git push -f git@github.com:mudfish/java-it-docs.git master:gh-pages
+git push -f git@github.com:itychou/bolg.git main:gh-pages
 
 cd -
